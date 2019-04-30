@@ -1,2 +1,2 @@
-# interface-application
+# Interface application
 An interface layout with data of an API 
