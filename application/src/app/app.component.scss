@@ -1,0 +1,125 @@
+/* VARIAVEIS, IMPORTS E MIXINS */
+
+/* imports */
+@import url('https://fonts.googleapis.com/css?family=Roboto:500,700');
+@import url('https://necolas.github.io/normalize.css/latest/normalize.css');
+
+/* fonte */
+$fonte-family: 'Roboto', sans-serif;
+$fonte-medium: 500;
+$fonte-bold: 700;
+
+/* cores */
+$cor-principal: #611829;
+$cor-textoFundoEscuro: #FAFAFA;
+$cor-fundosBlocosInternos: #FFFFFF;
+$cor-internaJanela: #FCFCFC;
+$cor-bordaFundoJanela: #E8E8E8;
+$cor-barraRolagem: #939393;
+
+$cor-frutas: #419D47;
+$cor-massas: #D14952;
+$cor-carnes: #E2B762;
+$cor-laticinios: #597FBF;
+$cor-bebidas: #737373;
+$cor-cereais: #333333;
+$cor-leguminosas: #924551;
+
+$cor-abaMercado: #EEEEEE;
+$cor-textoMercado: #350000;
+
+$cor-textoProduto: #555555;
+$cor-tituloProduto: #000000;
+$cor-estoque: #00A50B;
+$cor-emFalta: #DA0000;
+$cor-info: #737373;
+$cor-bordaInfo: #707070;
+
+/* ESTILIZACAO */
+
+.icon{
+  font-size: 20px;
+  display: inline-block;
+  line-height: 1.8;
+}
+
+.icon-mirror{
+  -moz-transform: scale(-1, 1);
+  -webkit-transform: scale(-1, 1);
+  -o-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+
+.content{
+  width: 100%;
+  margin-top: 50px;
+  /* Alinhamento dos filhos em relação ao pai */
+  display: flex;
+  justify-content: center;
+}
+
+.janela{
+  height: 573.06px;
+  width: 930px;
+  border-radius: 12px;
+  background-color: $cor-principal;
+  display: block;
+}
+
+.janela-titulo{
+  height: 36px;
+  padding: 0 20px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.janela-titulo__descricao{
+  position: relative;
+  font-family: $fonte-family;
+  color: $cor-textoFundoEscuro;
+  font-weight: $fonte-bold;
+  font-size: 14px;
+  display: inline-block;
+  transform: translateY(10px);
+  letter-spacing: 0.06rem;
+}
+
+.janela-titulo__icons{
+  position: relative;
+  color: $cor-textoFundoEscuro;
+  margin-right: -10px;
+}
+
+.janela-titulo__icons--search{
+  position: relative;
+  color: $cor-textoFundoEscuro;
+  transform: translateX(-355px);
+}
+
+.blocoInterno{
+  width: 909px;
+  height: 531px;
+  margin: 0 auto;
+  border-radius: 12px;
+  background-color: $cor-internaJanela;
+}
+
+.botoes{
+  width: 100%;
+  padding-top: 11px;
+  display: flex;
+  justify-content: center;
+}
+
+.botao{
+  width: 100px;
+  height: 25px;
+  border-radius: 24px;
+  font-family: $fonte-family;
+  font-weight: $fonte-medium;
+  font-size: 11px;
+  margin: 0 5px;
+  border: solid 2px;
+}
