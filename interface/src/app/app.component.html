@@ -15,19 +15,28 @@
         </span>
       </div>
     </div>
-    <div class="blocoInterno">
+    <div class="janela-blocoInterno">
       <div class="botoes">
-        <button class="botoes__frutas      botao">FRUTAS</button>
-        <button class="botoes__massas      botao">MASSAS</button>
-        <button class="botoes__carnes      botao">CARNES</button>
-        <button class="botoes__laticinios  botao">LATICÍNIOS</button>
-        <button class="botoes__bebidas     botao">BEBIDAS</button>
-        <button class="botoes__cereais     botao">CEREAIS</button>
-        <button class="botoes__leguminosas botao">LEGUMINOSAS</button>
+        <app-botaoFiltro></app-botaoFiltro>
       </div>
-      <br>
-      <span> Welcome to {{ title }}!  </span>
+      <div class="tela">
+        <div class="tela-produto">
+          <span class="tela-produto__titulo"> PRODUTOS </span>
+          <div class="tela-produto-blocoInterno">
+            <div id="scrollbar-produtos">
+              <app-produtoCard></app-produtoCard>
+            </div>
+          </div>
+        </div>
+        <div class="tela-mercado">
+          <span class="tela-mercado__titulo"> MERCADO </span>
+          <div class="tela-mercado-blocoInterno">
+            <div id="scrollbar-produtos--mercados">
+              <app-mercadoLine></app-mercadoLine>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
-
