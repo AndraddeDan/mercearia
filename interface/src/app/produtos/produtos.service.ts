@@ -13,11 +13,11 @@ export class ProdutosService {
     constructor(private http: HttpClient) {}
 
     getProdutos() {
-        return this.http.get<Object[]>(API + '/products');
+        return this.http.get<any[]>(API + '/products');
     }
 
     getInfoProduto(id: number) {
-        return this.http.get<Object[]>(API + '/products/' + id);
+        return this.http.get<any[]>(API + '/products/' + id);
     }
 
     trocaId(id: number) {

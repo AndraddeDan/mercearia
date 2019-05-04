@@ -1,4 +1,4 @@
-import { Component, OnInit } from "@angular/core";
+import { Component, OnInit } from '@angular/core';
 import { text } from '@angular/core/src/render3';
 
 import { ProdutosService } from '../produtos.service';
@@ -12,7 +12,7 @@ import { ProdutosService } from '../produtos.service';
 export class MercadoComponent implements OnInit {
 
     // tslint:disable-next-line:ban-types
-    stores: Object[] = [];
+    stores: any = [];
 
     produtosService: ProdutosService;
 

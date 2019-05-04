@@ -10,8 +10,8 @@ import { ProdutosService } from '../produtos.service';
 })
 export class ProdutoComponent {
 
-    produtos: Object[] = [];
-    excluidos: Object[] = [];
+    produtos: any = [];
+    excluidos: any = [];
 
     produtosService: ProdutosService;
 
