@@ -8,7 +8,7 @@
 ## Execução
 
 - Na primeira vez em que for abrir o projeto entre na pasta interface: `cd interface`
-- Rode o comando `npm start` (se estiver em um ambiente mac ou linux, execute o comando como `sudo npm start`)
+- Rode o comando `npm install` (se estiver em um ambiente mac ou linux, execute o comando como `sudo npm install`)
 - Todas as dependencias serão instaladas
 - Agora com as dependências instaladas excute o comando `ng serve` dentro da pasta interface.
 
