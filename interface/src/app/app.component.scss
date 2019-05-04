@@ -37,16 +37,6 @@ $cor-bordaInfo: #707070;
 
 /* ESTILIZACAO */
 
-.card-animation {
-  animation-name: color;
-  animation-duration: 4s;
-}
-
-@keyframes color {
-  from {background-color: gray;}
-  to {background-color: white;}
-}
-
 .content{
   width: 100%;
   margin-top: 50px;
@@ -132,6 +122,7 @@ $cor-bordaInfo: #707070;
   margin: 0 5px;
   border: solid 2px;
   cursor: pointer;
+  transition: background 0.8s;
 }
 
 .botao:hover{
@@ -304,6 +295,16 @@ $cor-bordaInfo: #707070;
   border: 1px solid $cor-frutas;
   background-color: $cor-fundosBlocosInternos;
   box-shadow: 2px 2px 4px rgba(0,0,0,0.16);
+  transition: background 0.8s;
+}
+
+.card:hover {
+  background: radial-gradient(circle, transparent 1%, #fff 1%) center/15000%;
+}
+.card:active {
+  background-color: $cor-abaMercado;
+  background-size: 100%;
+  transition: background 0s;
 }
 
 .card__borda{
@@ -447,6 +448,17 @@ $cor-bordaInfo: #707070;
   background-color: $cor-frutas;
   height: 9px;
   border-radius: 12px;
+  -webkit-animation: expandir;
+  -webkit-animation-fill-mode: forwards;
+  animation: expandir 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 0;
+  animation-duration: 1s
+}
+
+@keyframes expandir {
+    from { left: 0 }
+    //to { width: 100px }
 }
 
 .mercado__line{
