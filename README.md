@@ -12,7 +12,7 @@
 - Todas as dependencias serão instaladas
 - Agora com as dependências instaladas excute o comando `ng serve` dentro da pasta interface.
 
-(Talvez possa acontecer um erro de compilação com o `node-sass` devido ao npm não conseguir realizar a instalação do mesmo. No meu caso resolvi executando o seguinte comando: `sudo npm install --save-dev  --unsafe-perm node-sass`)
+(Talvez possa acontecer um erro de compilação com o `node-sass` devido ao npm não conseguir realizar a instalação do mesmo. No meu caso resolvi executando o seguinte comando: `npm install --save-dev  --unsafe-perm node-sass` ou para linux: `sudo npm install --save-dev  --unsafe-perm node-sass`)
 
 - Se dessa vez o erro não ocorrer você pode acessar a porta localhost:4200 no seu browser, que por padrão o `ng serve` faz um build de desenvolvimento para você verificar sua aplicação, sempre recompilando quando um arquivo muda.
 
