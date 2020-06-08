@@ -11,33 +11,33 @@ $fonte-bold: 700;
 
 /* cores */
 $cor-principal: #611829;
-$cor-textoFundoEscuro: #FAFAFA;
-$cor-fundosBlocosInternos: #FFFFFF;
-$cor-internaJanela: #FCFCFC;
-$cor-bordaFundoJanela: #E8E8E8;
+$cor-textoFundoEscuro: #fafafa;
+$cor-fundosBlocosInternos: #ffffff;
+$cor-internaJanela: #fcfcfc;
+$cor-bordaFundoJanela: #e8e8e8;
 $cor-barraRolagem: #939393;
 
-$cor-frutas: #419D47;
-$cor-massas: #D14952;
-$cor-carnes: #E2B762;
-$cor-laticinios: #597FBF;
+$cor-frutas: #419d47;
+$cor-massas: #d14952;
+$cor-carnes: #e2b762;
+$cor-laticinios: #597fbf;
 $cor-bebidas: #737373;
 $cor-cereais: #333333;
 $cor-leguminosas: #924551;
 
-$cor-abaMercado: #EEEEEE;
+$cor-abaMercado: #eeeeee;
 $cor-textoMercado: #350000;
 
 $cor-textoProduto: #555555;
 $cor-tituloProduto: #000000;
-$cor-estoque: #00A50B;
-$cor-emFalta: #DA0000;
+$cor-estoque: #00a50b;
+$cor-emFalta: #da0000;
 $cor-info: #737373;
 $cor-bordaInfo: #707070;
 
 /* ESTILIZACAO */
 
-.content{
+.content {
   width: 100%;
   margin-top: 50px;
   /* Alinhamento dos filhos em relação ao pai */
@@ -45,7 +45,7 @@ $cor-bordaInfo: #707070;
   justify-content: center;
 }
 
-.janela{
+.janela {
   height: 573.06px;
   width: 930px;
   border-radius: 12px;
@@ -53,7 +53,7 @@ $cor-bordaInfo: #707070;
   display: block;
 }
 
-.janela-titulo{
+.janela-titulo {
   height: 36px;
   padding: 0 20px;
   position: relative;
@@ -61,7 +61,7 @@ $cor-bordaInfo: #707070;
   justify-content: space-between;
 }
 
-.janela-titulo__descricao{
+.janela-titulo__descricao {
   position: relative;
   font-family: $fonte-family;
   color: $cor-textoFundoEscuro;
@@ -72,18 +72,18 @@ $cor-bordaInfo: #707070;
   letter-spacing: 0.06rem;
 }
 
-.janela-titulo__icons{
+.janela-titulo__icons {
   position: relative;
   color: $cor-textoFundoEscuro;
 }
 
-.icon{
+.icon {
   font-size: 20px;
   display: inline-block;
   line-height: 1.8;
 }
 
-.icon-mirror{
+.icon-mirror {
   -moz-transform: scale(-1, 1);
   -webkit-transform: scale(-1, 1);
   -o-transform: scale(-1, 1);
@@ -91,13 +91,13 @@ $cor-bordaInfo: #707070;
   transform: scale(-1, 1);
 }
 
-.janela-titulo__icons--search{
+.janela-titulo__icons--search {
   position: relative;
   color: $cor-textoFundoEscuro;
   transform: translateX(-355px);
 }
 
-.janela-blocoInterno{
+.janela-blocoInterno {
   width: 909px;
   height: 531px;
   margin: 0 auto;
@@ -105,14 +105,14 @@ $cor-bordaInfo: #707070;
   background-color: $cor-internaJanela;
 }
 
-.botoes{
+.botoes {
   width: 100%;
   padding-top: 11px;
   display: flex;
   justify-content: center;
 }
 
-.botao{
+.botao {
   width: 100px;
   height: 25px;
   border-radius: 24px;
@@ -125,87 +125,87 @@ $cor-bordaInfo: #707070;
   transition: background 0.8s;
 }
 
-.botao:hover{
+.botao:hover {
   color: $cor-textoFundoEscuro;
 }
 
-.botoes__frutas{
+.botoes__frutas {
   border-color: $cor-frutas;
   background-color: $cor-internaJanela;
   color: $cor-frutas;
 }
 
-.botoes__frutas:hover{
+.botoes__frutas:hover {
   border-color: $cor-frutas;
   background-color: $cor-frutas;
 }
 
-.botoes__massas{
+.botoes__massas {
   border-color: $cor-massas;
   color: $cor-massas;
   background-color: $cor-internaJanela;
 }
 
-.botoes__massas:hover{
+.botoes__massas:hover {
   background-color: $cor-massas;
 }
 
-.botoes__carnes{
+.botoes__carnes {
   border-color: $cor-carnes;
   color: $cor-carnes;
   background-color: $cor-internaJanela;
 }
 
-.botoes__carnes:hover{
+.botoes__carnes:hover {
   background-color: $cor-carnes;
 }
 
-.botoes__laticinios{
+.botoes__laticinios {
   border-color: $cor-laticinios;
   color: $cor-laticinios;
   background-color: $cor-internaJanela;
 }
 
-.botoes__laticinios:hover{
+.botoes__laticinios:hover {
   background-color: $cor-laticinios;
 }
 
-.botoes__bebidas{
+.botoes__bebidas {
   border-color: $cor-bebidas;
   color: $cor-bebidas;
   background-color: $cor-internaJanela;
 }
 
-.botoes__bebidas:hover{
+.botoes__bebidas:hover {
   background-color: $cor-bebidas;
 }
 
-.botoes__cereais{
+.botoes__cereais {
   border-color: $cor-cereais;
   color: $cor-cereais;
   background-color: $cor-internaJanela;
 }
 
-.botoes__cereais:hover{
+.botoes__cereais:hover {
   background-color: $cor-cereais;
 }
 
-.botoes__leguminosas{
+.botoes__leguminosas {
   border-color: $cor-leguminosas;
   color: $cor-leguminosas;
   background-color: $cor-internaJanela;
 }
 
-.botoes__leguminosas:hover{
+.botoes__leguminosas:hover {
   background-color: $cor-leguminosas;
 }
 
-.tela{
+.tela {
   margin-top: 12px;
   display: flex;
 }
 
-.tela-produto{
+.tela-produto {
   height: 480px;
   width: 450px;
   border-radius: 12px;
@@ -214,7 +214,7 @@ $cor-bordaInfo: #707070;
   display: block;
 }
 
-.tela-produto__titulo{
+.tela-produto__titulo {
   height: 36px;
   padding: 0 20px;
   position: relative;
@@ -231,7 +231,7 @@ $cor-bordaInfo: #707070;
   color: $cor-textoFundoEscuro;
 }
 
-.tela-produto-blocoInterno{
+.tela-produto-blocoInterno {
   width: 440px;
   height: 415px;
   margin: 0 auto;
@@ -239,10 +239,9 @@ $cor-bordaInfo: #707070;
   padding-bottom: 12px;
   border-radius: 12px;
   background-color: $cor-internaJanela;
-
 }
 
-#scrollbar-produtos{
+#scrollbar-produtos {
   height: 415px;
   margin-right: 7px;
   border-radius: 12px;
@@ -251,18 +250,18 @@ $cor-bordaInfo: #707070;
   scrollbar-width: thin;
 }
 
-#scrollbar-produtos::-webkit-scrollbar{
+#scrollbar-produtos::-webkit-scrollbar {
   margin-right: 80px;
   width: 6px;
   background-color: transparent;
 }
 
-#scrollbar-produtos::-webkit-scrollbar-thumb{
+#scrollbar-produtos::-webkit-scrollbar-thumb {
   border-radius: 12px;
   background-color: $cor-barraRolagem;
 }
 
-#scrollbar-produtos--mercados{
+#scrollbar-produtos--mercados {
   height: 425px;
   margin-right: 4px;
   border-radius: 12px;
@@ -271,18 +270,18 @@ $cor-bordaInfo: #707070;
   scrollbar-width: thin;
 }
 
-#scrollbar-produtos--mercados::-webkit-scrollbar{
+#scrollbar-produtos--mercados::-webkit-scrollbar {
   margin-right: 80px;
   width: 6px;
   background-color: transparent;
 }
 
-#scrollbar-produtos--mercados::-webkit-scrollbar-thumb{
+#scrollbar-produtos--mercados::-webkit-scrollbar-thumb {
   border-radius: 12px;
   background-color: transparent;
 }
 
-.card{
+.card {
   cursor: pointer;
   width: 190.4px;
   height: 73px;
@@ -294,7 +293,7 @@ $cor-bordaInfo: #707070;
   border-radius: 12px;
   border: 1px solid $cor-frutas;
   background-color: $cor-fundosBlocosInternos;
-  box-shadow: 2px 2px 4px rgba(0,0,0,0.16);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.16);
   transition: background 0.8s;
 }
 
@@ -307,24 +306,24 @@ $cor-bordaInfo: #707070;
   transition: background 0s;
 }
 
-.card__borda{
+.card__borda {
   width: 7px;
   height: 100%;
   background-color: $cor-frutas;
   border-radius: 36px 0px 0px 36px;
 }
 
-.card-conteudo{
+.card-conteudo {
   padding: 7.5px;
 }
 
-.card-conteudo-row{
+.card-conteudo-row {
   margin-bottom: 5px;
   display: flex;
   justify-content: space-between;
 }
 
-.card-conteudo__nome{
+.card-conteudo__nome {
   font-family: $fonte-family;
   font-weight: $fonte-bold;
   font-size: 16px;
@@ -332,13 +331,13 @@ $cor-bordaInfo: #707070;
   text-transform: uppercase;
 }
 
-.card-conteudo__info{
+.card-conteudo__info {
   display: inline-block;
   color: $cor-info;
   transform: translateY(-4px);
 }
 
-.card-conteudo__dataEnvio{
+.card-conteudo__dataEnvio {
   display: inline-block;
   transform: translateY(-6px);
 
@@ -349,7 +348,7 @@ $cor-bordaInfo: #707070;
   color: $cor-textoProduto;
 }
 
-.card-conteudo__estoque{
+.card-conteudo__estoque {
   transform: translateY(-5px);
   margin: 0 auto;
 
@@ -360,114 +359,108 @@ $cor-bordaInfo: #707070;
   text-transform: uppercase;
 }
 
-.estoque{
+.estoque {
   color: $cor-frutas;
 }
 
-.falta{
+.falta {
   color: $cor-emFalta;
 }
 
-.tela-mercado{
+.tela-mercado {
   margin-left: 3px;
   background-color: $cor-internaJanela;
   display: block;
 }
 
-.tela-mercado__titulo{
+.tela-mercado__titulo {
+  border-bottom: 27.76px solid $cor-abaMercado;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  color: $cor-principal;
+  display: flex;
+  font-family: $fonte-family;
+  font-size: 14px;
+  font-weight: $fonte-bold;
   height: 0px;
-  width: 158px;
+  justify-content: center;
+  letter-spacing: 0.06rem;
+  line-height: 2.5;
   margin: 0 auto;
   position: relative;
-
-  line-height: 2.5;
-  display: flex;
-  justify-content: center;
-
-  font-family: $fonte-family;
-  font-weight: $fonte-bold;
-  letter-spacing: 0.06rem;
-  font-size: 14px;
-  color: $cor-principal;
-
-  border-bottom: 27.76px solid $cor-abaMercado;
-  border-right: 20px solid transparent;
-  border-left: 20px solid transparent;
+  width: 158px;
 }
 
-.tela-mercado-blocoInterno{
-  width: 440px;
+.tela-mercado-blocoInterno {
+  background-color: $cor-fundosBlocosInternos;
+  border-radius: 12px;
+  border: 4px solid $cor-abaMercado;
   height: 440px;
   margin: 0 auto;
   padding-top: 3px;
-  border-radius: 12px;
-  border: 4px solid $cor-abaMercado;
-  background-color: $cor-fundosBlocosInternos;
+  width: 440px;
 }
 
-.mercado-conteudo{
+.mercado-conteudo {
   display: inline-block;
 }
 
-.mercado__fundo-icon{
-  width: 32px;
-  height: 31px;
-  display: inline-block;
+.mercado__fundo-icon {
   background-color: $cor-principal;
-  color: $cor-textoFundoEscuro;
   border-radius: 30px;
+  color: $cor-textoFundoEscuro;
+  display: inline-block;
+  height: 31px;
   margin-left: 15px;
   margin-top: 7.5px;
+  width: 32px;
 }
 
-.mercado__person-icon{
+.mercado__person-icon {
   margin-left: 4px;
   transform: translateY(3px);
 }
 
-.mercado-informacoes{
-  margin-left: 15px;
+.mercado-informacoes {
   float: right;
+  margin-left: 15px;
 }
 
-.mercado-informacoes__texto{
-  margin-top: 9px;
-  width: 360px;
+.mercado-informacoes__texto {
   display: flex;
-  justify-content: space-between;
-
-  font-size: 10px;
   font-family: $fonte-family;
+  font-size: 10px;
   font-weight: $fonte-medium;
+  justify-content: space-between;
+  margin-top: 9px;
   text-transform: uppercase;
+  width: 360px;
 }
 
-.mercado-informacoes__barra{
-  display: block;
-  margin-top: 7px;
-  background-color: $cor-frutas;
-  height: 9px;
-  border-radius: 12px;
-  //-webkit-animation: expandir;
+.mercado-informacoes__barra {
   //-webkit-animation-fill-mode: forwards;
-  //animation: expandir 1s;
-  animation-fill-mode: forwards;
+  //-webkit-animation: expandir;
   animation-delay: 0;
-  animation-duration: 1s
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation: expandir 1s;
+  background-color: $cor-frutas;
+  border-radius: 12px;
+  display: block;
+  height: 9px;
+  margin-top: 7px;
 }
 
-/*
-@keyframes expandir {
-    from { left: 0 }
-    //to { width: 100px }
-}
- */
+// @keyframes expandir {
+//     from { left: 0 }
+//     to { width: 100% }
+// }
 
-.mercado__line{
+.mercado__line {
+  background-color: $cor-abaMercado;
+  border-color: $cor-abaMercado;
   display: block;
   height: 1px;
   margin-top: 9px;
-  background-color: $cor-abaMercado;
-  border-color: $cor-abaMercado;
   width: 100%;
 }
