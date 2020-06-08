@@ -1,0 +1,15 @@
+<div class="mercado" *ngFor = "let store of stores">
+    <div class="mercado-conteudo">
+        <span class="mercado__fundo-icon"><i class="material-icons mercado__person-icon">person</i></span>
+        <div class="mercado-informacoes">
+            <div class="mercado-informacoes__texto">
+                <span>{{ store.store }}</span>
+                <span>{{ store.quantity_in_store * 100 | number:0 }}%</span>
+            </div>
+            <div class="">
+                <span class="mercado-informacoes__barra" [style.width.%]="store.largura"></span>
+            </div>
+        </div>
+    </div>
+    <span class="mercado__line"></span>
+</div>
